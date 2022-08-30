@@ -42,10 +42,22 @@
     #message-input {
       flex-grow: 1;
     }
+    .chat-history{
+      margin-left: 20px;
+    background-color: #a4f1a4;
+    width: 200px;
+    margin-right: 20px;
+    text-align: center;
+    height: 30px;
+    }
   </style>
 </head>
 <body>
   <div id="message-container"></div>
+  <div id="users-list" > 
+    <div class="chat-history">Users log</div>
+  </div>
+  
   <form id="send-container">
     <input type="text" id="message-input">
     <button type="submit" id="send-button">Send</button>
